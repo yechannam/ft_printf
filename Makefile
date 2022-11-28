@@ -6,7 +6,7 @@
 #    By: yecnam <yecnam@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/21 13:23:58 by yecnam            #+#    #+#              #
-#    Updated: 2022/11/27 22:22:34 by yecnam           ###   ########.fr        #
+#    Updated: 2022/11/28 10:51:19 by yecnam           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ clean :
 fclean : clean
 	rm -rf $(NAME)
 
-re : 
+re :
 	$(MAKE) fclean
 	$(MAKE) all
 
